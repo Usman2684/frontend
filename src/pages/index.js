@@ -1,8 +1,7 @@
 const Home = () => (
-  <div>
-    ziaullah
-    
-  </div>
+    <h1>
+        Home Page
+    </h1>
 );
 
 export default Home;
