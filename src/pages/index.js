@@ -10,13 +10,13 @@ import Blogs from '../components/Blogs';
 const Home = () => (
     <>
         <Navbar />
-        < HomePage />
-        < About />
-        < Services />
-        < Projects />
-        < Pricing />
-        < ContactUs />
-        < Blogs />
+        <HomePage />
+        <About />
+        <Services />
+        <Projects />
+        <Pricing />
+        <ContactUs />
+        <Blogs />
     </>
 );
 

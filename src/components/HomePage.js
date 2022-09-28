@@ -8,7 +8,7 @@ const home = () => (
 
                 <div class="swiper-wrapper">
 
-                    <section class="swiper-slide slide" style={{background: url("images/home-slide-1.jpg") }}>
+                    <section class="swiper-slide slide">
                         <div class="content">
                             <h3>we provide best service</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
@@ -16,7 +16,7 @@ const home = () => (
                         </div>
                     </section>
 
-                    <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <section class="swiper-slide slide" >
                         <div class="content">
                             <h3>making dream come to life</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
@@ -24,7 +24,7 @@ const home = () => (
                         </div>
                     </section>
 
-                    <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <section class="swiper-slide slide">
                         <div class="content">
                             <h3>from concept to creation</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
