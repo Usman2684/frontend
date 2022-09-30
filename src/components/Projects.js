@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const projects = () => (
     <div>
         <section class="projects" id="projects">
@@ -8,7 +10,7 @@ const projects = () => (
 
                 <a href="images/project-1.jpg" class="box">
                     <div class="image">
-                        <img src="images/project-1.jpg" alt="" />
+                        <Image src="/images/project-1.jpg" width={100} height={100} alt="" />
                     </div>
                     <div class="content">
                         <div class="info">
@@ -21,7 +23,7 @@ const projects = () => (
 
                 <a href="images/project-2.jpg" class="box">
                     <div class="image">
-                        <img src="images/project-2.jpg" alt="" />
+                        <Image src="/images/project-2.jpg" width={100} height={100} alt="" />
                     </div>
                     <div class="content">
                         <div class="info">
@@ -34,7 +36,7 @@ const projects = () => (
 
                 <a href="images/project-3.jpg" class="box">
                     <div class="image">
-                        <img src="images/project-3.jpg" alt="" />
+                        <Image src="/images/project-3.jpg" width={100} height={100} alt="" />
                     </div>
                     <div class="content">
                         <div class="info">
@@ -47,7 +49,7 @@ const projects = () => (
 
                 <a href="images/project-4.jpg" class="box">
                     <div class="image">
-                        <img src="images/project-4.jpg" alt="" />
+                        <Image src="/images/project-4.jpg" width={100} height={100} alt="" />
                     </div>
                     <div class="content">
                         <div class="info">
@@ -60,7 +62,7 @@ const projects = () => (
 
                 <a href="images/project-5.jpg" class="box">
                     <div class="image">
-                        <img src="images/project-5.jpg" alt="" />
+                        <Image src="/images/project-5.jpg" width={100} height={100} alt="" />
                     </div>
                     <div class="content">
                         <div class="info">
@@ -73,7 +75,7 @@ const projects = () => (
 
                 <a href="images/project-6.jpg" class="box">
                     <div class="image">
-                        <img src="images/project-6.jpg" alt="" />
+                        <Image src="/images/project-6.jpg" width={100} height={100} alt="" />
                     </div>
                     <div class="content">
                         <div class="info">
