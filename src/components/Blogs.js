@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const Blogs = () => (
   <section id="recent-blog-posts" className="recent-blog-posts">
@@ -18,10 +19,12 @@ const Blogs = () => (
         >
           <div className="post-item position-relative h-100">
             <div className="post-img position-relative overflow-hidden">
-              <img
+              <Image
                 src="/assets/img/blog/blog-1.jpg"
                 className="img-fluid"
                 alt=""
+                width={700}
+                height={500}
               />
               <span className="post-date">December 12</span>
             </div>
@@ -60,10 +63,12 @@ const Blogs = () => (
         >
           <div className="post-item position-relative h-100">
             <div className="post-img position-relative overflow-hidden">
-              <img
+              <Image
                 src="/assets/img/blog/blog-2.jpg"
                 className="img-fluid"
                 alt=""
+                width={700}
+                height={500}
               />
               <span className="post-date">July 17</span>
             </div>
@@ -102,10 +107,12 @@ const Blogs = () => (
             data-aos-delay="300"
           >
             <div className="post-img position-relative overflow-hidden">
-              <img
+              <Image
                 src="/assets/img/blog/blog-3.jpg"
                 className="img-fluid"
                 alt=""
+                width={700}
+                height={500}
               />
               <span className="post-date">September 05</span>
             </div>

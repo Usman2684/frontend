@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Features = () => (
   <section id="features" className="features section-bg">
     <div className="container" data-aos="fade-up">
@@ -66,9 +68,11 @@ const Features = () => (
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <img
+              <Image
                 src="/assets/img/features-1.jpg"
                 alt=""
+                width={700}
+                height={500}
                 className="img-fluid"
               />
             </div>
@@ -106,9 +110,11 @@ const Features = () => (
               </ul>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 text-center">
-              <img
+              <Image
                 src="/assets/img/features-2.jpg"
                 alt=""
+                width={700}
+                height={500}
                 className="img-fluid"
               />
             </div>
@@ -140,9 +146,11 @@ const Features = () => (
               </p>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 text-center">
-              <img
+              <Image
                 src="/assets/img/features-3.jpg"
                 alt=""
+                width={700}
+                height={500}
                 className="img-fluid"
               />
             </div>
@@ -175,9 +183,11 @@ const Features = () => (
               </ul>
             </div>
             <div className="col-lg-6 order-1 order-lg-2 text-center">
-              <img
+              <Image
                 src="/assets/img/features-4.jpg"
                 alt=""
+                width={700}
+                height={500}
                 className="img-fluid"
               />
             </div>
