@@ -1,11 +1,11 @@
 
 const Navbar = () => (
 
-  <header class="header">
+  <header className="header">
 
-    <a href="#" class="logo">The<span>Planner</span></a>
+    <a href="#" className="logo">The<span>Planner</span></a>
 
-    <nav class="navbar">
+    <nav className="navbar">
       <a href="#home">home</a>
       <a href="#about">about</a>
       <a href="#services">services</a>
@@ -15,28 +15,28 @@ const Navbar = () => (
       <a href="#blogs">blogs</a>
     </nav>
 {/* 
-    <div class="icons">
-      <div id="menu-btn" class="fas fa-bars"></div>
-      <div id="info-btn" class="fas fa-info-circle"></div>
-      <div id="search-btn" class="fas fa-search"></div>
-      <div id="login-btn" class="fas fa-user"></div>
+    <div className="icons">
+      <div id="menu-btn" className="fas fa-bars"></div>
+      <div id="info-btn" className="fas fa-info-circle"></div>
+      <div id="search-btn" className="fas fa-search"></div>
+      <div id="login-btn" className="fas fa-user"></div>
     </div>
 
-    <form action="" class="search-form">
+    <form action="" className="search-form">
       <input type="search" name="" placeholder="search here..." id="search-box" />
-        <label for="search-box" class="fas fa-search"></label>
+        <label for="search-box" className="fas fa-search"></label>
     </form>
 
-    <form action="" class="login-form">
+    <form action="" className="login-form">
       <h3>login form</h3>
-      <input type="email" placeholder="enter your email" class="box" />
-        <input type="password" placeholder="enter your password" class="box" />
-          <div class="flex">
+      <input type="email" placeholder="enter your email" className="box" />
+        <input type="password" placeholder="enter your password" className="box" />
+          <div className="flex">
             <input type="checkbox" name="" id="remember-me" />
               <label for="remember-me">remember me</label>
               <a href="#">forgot password?</a>
           </div>
-          <input type="submit" value="login now" class="btn" />
+          <input type="submit" value="login now" className="btn" />
             <p>don't have an account <a href="#">create one!</a></p>
           </form> */}
 

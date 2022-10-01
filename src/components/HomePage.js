@@ -2,40 +2,40 @@
 
 const home = () => (
     <div>
-        <section class="home" id="home">
+        <section className="home" id="home">
 
-            <div class="swiper home-slider">
+            <div className="swiper home-slider">
 
-                <div class="swiper-wrapper">
+                <div className="swiper-wrapper">
 
-                    <section class="swiper-slide slide">
-                        <div class="content">
+                    <section className="swiper-slide slide">
+                        <div className="content">
                             <h3>we provide best service</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
-                            <a href="#about" class="btn">get started</a>
+                            <a href="#about" className="btn">get started</a>
                         </div>
                     </section>
 
-                    <section class="swiper-slide slide" >
-                        <div class="content">
+                    <section className="swiper-slide slide" >
+                        <div className="content">
                             <h3>making dream come to life</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
-                            <a href="#about" class="btn">get started</a>
+                            <a href="#about" className="btn">get started</a>
                         </div>
                     </section>
 
-                    <section class="swiper-slide slide">
-                        <div class="content">
+                    <section className="swiper-slide slide">
+                        <div className="content">
                             <h3>from concept to creation</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur beatae iusto pariatur laborum magnam eos!</p>
-                            <a href="#about" class="btn">get started</a>
+                            <a href="#about" className="btn">get started</a>
                         </div>
                     </section>
 
                 </div>
 
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
 
             </div>
 
