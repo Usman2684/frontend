@@ -1,20 +1,90 @@
-const contactus =()=>(
-      <section className="contact" id="contact">
-         <h1 className="heading"> contact us </h1>
-         <div className="row">
-            <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin" allowFullScreen="" loading="lazy"></iframe>
-      
-            <form action="">
-               <h3>get in touch</h3>
-               <input type="text" placeholder="name" className="box" />
-               <input type="email" placeholder="email" className="box" />
-               <input type="number" placeholder="phone" className="box" />
-               <textarea name="" placeholder="message" className="box" id="" cols="30" rows="10"></textarea>
-               <input type="submit" value="send message" className="btn"/>
-            </form>
-      
-         </div>
-      
-      </section>
-)
-export default contactus;
+const ContactUs = () => (
+  <section id="get-started" className="get-started section-bg">
+    <div className="container">
+      <div className="row justify-content-between gy-4">
+        <div className="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+          <div className="content">
+            <h3>Minus hic non reiciendis ea possimus at quia.</h3>
+            <p>
+              Rem id rerum. Debitis deserunt quidem delectus expedita ducimus
+              dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque
+              perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi
+              possimus ut delectus dicta.
+            </p>
+            <p>
+              Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit
+              eligendi labore culpa eos. Deserunt porro magni qui necessitatibus
+              dolorem at animi cupiditate.
+            </p>
+          </div>
+        </div>
+
+        <div className="col-lg-5" data-aos="fade">
+          <form
+            action="forms/quote.php"
+            method="post"
+            className="php-email-form"
+          >
+            <h3>Get a quote</h3>
+            <p>
+              Vel nobis odio laboriosam et hic voluptatem. Inventore vitae
+              totam. Rerum repellendus enim linead sero park flows.
+            </p>
+            <div className="row gy-3">
+              <div className="col-md-12">
+                <input
+                  type="text"
+                  name="name"
+                  className="form-control"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+
+              <div className="col-md-12 ">
+                <input
+                  type="email"
+                  className="form-control"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div className="col-md-12">
+                <input
+                  type="text"
+                  className="form-control"
+                  name="phone"
+                  placeholder="Phone"
+                  required
+                />
+              </div>
+
+              <div className="col-md-12">
+                <textarea
+                  className="form-control"
+                  name="message"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <div className="col-md-12 text-center">
+                <div className="loading">Loading</div>
+                <div className="error-message"></div>
+                <div className="sent-message">
+                  Your quote request has been sent successfully. Thank you!
+                </div>
+
+                <button type="submit">Get a quote</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+);
+export default ContactUs;

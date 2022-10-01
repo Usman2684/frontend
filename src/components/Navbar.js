@@ -1,47 +1,71 @@
-
 const Navbar = () => (
+  <nav id="navbar" className="navbar">
+    <ul>
+      <li>
+        <a href="index.html" className="active">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="services.html">Services</a>
+      </li>
+      <li>
+        <a href="projects.html">Projects</a>
+      </li>
+      <li>
+        <a href="blog.html">Blog</a>
+      </li>
+      <li className="dropdown">
+        <a href="#">
+          <span>Dropdown</span>{" "}
+          <i className="bi bi-chevron-down dropdown-indicator"></i>
+        </a>
+        <ul>
+          <li>
+            <a href="#">Dropdown 1</a>
+          </li>
+          <li className="dropdown">
+            <a href="#">
+              <span>Deep Dropdown</span>{" "}
+              <i className="bi bi-chevron-down dropdown-indicator"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="#">Deep Dropdown 1</a>
+              </li>
+              <li>
+                <a href="#">Deep Dropdown 2</a>
+              </li>
+              <li>
+                <a href="#">Deep Dropdown 3</a>
+              </li>
+              <li>
+                <a href="#">Deep Dropdown 4</a>
+              </li>
+              <li>
+                <a href="#">Deep Dropdown 5</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Dropdown 2</a>
+          </li>
+          <li>
+            <a href="#">Dropdown 3</a>
+          </li>
+          <li>
+            <a href="#">Dropdown 4</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+);
 
-  <header className="header">
-
-    <a href="#" className="logo">The<span>Planner</span></a>
-
-    <nav className="navbar">
-      <a href="#home">home</a>
-      <a href="#about">about</a>
-      <a href="#services">services</a>
-      <a href="#projects">projects</a>
-      <a href="#pricing">pricing</a>
-      <a href="#contact">contact</a>
-      <a href="#blogs">blogs</a>
-    </nav>
-{/* 
-    <div className="icons">
-      <div id="menu-btn" className="fas fa-bars"></div>
-      <div id="info-btn" className="fas fa-info-circle"></div>
-      <div id="search-btn" className="fas fa-search"></div>
-      <div id="login-btn" className="fas fa-user"></div>
-    </div>
-
-    <form action="" className="search-form">
-      <input type="search" name="" placeholder="search here..." id="search-box" />
-        <label for="search-box" className="fas fa-search"></label>
-    </form>
-
-    <form action="" className="login-form">
-      <h3>login form</h3>
-      <input type="email" placeholder="enter your email" className="box" />
-        <input type="password" placeholder="enter your password" className="box" />
-          <div className="flex">
-            <input type="checkbox" name="" id="remember-me" />
-              <label for="remember-me">remember me</label>
-              <a href="#">forgot password?</a>
-          </div>
-          <input type="submit" value="login now" className="btn" />
-            <p>don't have an account <a href="#">create one!</a></p>
-          </form> */}
-
-        </header>
-
-        );
-
-        export default Navbar;
+export default Navbar;
