@@ -48,7 +48,7 @@ const Blogs = () => (
 
               <hr />
 
-              <a href="blog-details.html" className="readmore stretched-link">
+              <a href="/blogsdetail" className="readmore stretched-link">
                 <span>Read More</span>
                 <i className="bi bi-arrow-right"></i>
               </a>
@@ -92,7 +92,7 @@ const Blogs = () => (
 
               <hr />
 
-              <a href="blog-details.html" className="readmore stretched-link">
+              <a href="/blogsdetail" className="readmore stretched-link">
                 <span>Read More</span>
                 <i className="bi bi-arrow-right"></i>
               </a>
@@ -136,7 +136,7 @@ const Blogs = () => (
 
               <hr />
 
-              <a href="blog-details.html" className="readmore stretched-link">
+              <a href="/blogsdetail" className="readmore stretched-link">
                 <span>Read More</span>
                 <i className="bi bi-arrow-right"></i>
               </a>

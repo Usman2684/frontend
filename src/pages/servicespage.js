@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Testimonials from "../components/Testimonials";
@@ -10,23 +11,7 @@ const ServicePage = () => {
       <Navbar activeClass={active} />
       <main id="main">
         {/* <!-- ======= Breadcrumbs ======= --> */}
-        <div
-          className="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: `url("/assets/img/breadcrumbs-bg.jpg");` }}
-        >
-          <div
-            className="container position-relative d-flex flex-column align-items-center"
-            data-aos="fade"
-          >
-            <h2>Services</h2>
-            <ol>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>Services</li>
-            </ol>
-          </div>
-        </div>
+        <Breadcrumbs pageName="Services" />
         {/* <!-- End Breadcrumbs --> */}
 
         {/* <!-- ======= Services Section ======= --> */}

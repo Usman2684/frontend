@@ -15,7 +15,7 @@ const AboutPage = () => {
       <Navbar activeClass={active} />
       <main id="main">
         {/* <!-- ======= Breadcrumbs ======= --> */}
-        <Breadcrumbs />
+        <Breadcrumbs pageName="About" />
         {/* <!-- End Breadcrumbs --> */}
 
         {/* <!-- ======= About Section ======= --> */}

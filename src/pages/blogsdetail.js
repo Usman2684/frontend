@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Breadcrumbs from "../components/Breadcrumbs";
 
 const BlogsDetailPage = () => (
   <>
@@ -7,23 +8,7 @@ const BlogsDetailPage = () => (
 
     <main id="main">
       {/* ======= Breadcrumbs ======= */}
-      <div
-        className="breadcrumbs d-flex align-items-center"
-        style={{ backgroundImage: `url("/assets/img/breadcrumbs-bg.jpg");` }}
-      >
-        <div
-          className="container position-relative d-flex flex-column align-items-center"
-          data-aos="fade"
-        >
-          <h2>Blog Details</h2>
-          <ol>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>Blog Details</li>
-          </ol>
-        </div>
-      </div>
+      <Breadcrumbs pageName="Blog Details" />
       {/* End Breadcrumbs */}
 
       {/* ======= Blog Details Section ======= */}
@@ -34,7 +19,7 @@ const BlogsDetailPage = () => (
               <article className="blog-details">
                 <div className="post-img">
                   <img
-                    src="assets/img/blog/blog-1.jpg"
+                    src="/assets/img/blog/blog-1.jpg"
                     alt=""
                     className="img-fluid"
                     width={500}
@@ -122,7 +107,7 @@ const BlogsDetailPage = () => (
                     accusamus mollitia aut atque aut.
                   </p>
                   <img
-                    src="assets/img/blog/blog-inside-post.jpg"
+                    src="/assets/img/blog/blog-inside-post.jpg"
                     className="img-fluid"
                     alt=""
                     width={500}
@@ -176,7 +161,7 @@ const BlogsDetailPage = () => (
 
               <div className="post-author d-flex align-items-center">
                 <img
-                  src="assets/img/blog/blog-author.jpg"
+                  src="/assets/img/blog/blog-author.jpg"
                   className="rounded-circle flex-shrink-0"
                   alt=""
                   width={500}
@@ -212,7 +197,7 @@ const BlogsDetailPage = () => (
                   <div className="d-flex">
                     <div className="comment-img">
                       <img
-                        src="assets/img/blog/comments-1.jpg"
+                        src="/assets/img/blog/comments-1.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -241,7 +226,7 @@ const BlogsDetailPage = () => (
                   <div className="d-flex">
                     <div className="comment-img">
                       <img
-                        src="assets/img/blog/comments-2.jpg"
+                        src="/assets/img/blog/comments-2.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -266,7 +251,7 @@ const BlogsDetailPage = () => (
                     <div className="d-flex">
                       <div className="comment-img">
                         <img
-                          src="assets/img/blog/comments-3.jpg"
+                          src="/assets/img/blog/comments-3.jpg"
                           alt=""
                           width={500}
                           height={500}
@@ -302,7 +287,7 @@ const BlogsDetailPage = () => (
                       <div className="d-flex">
                         <div className="comment-img">
                           <img
-                            src="assets/img/blog/comments-4.jpg"
+                            src="/assets/img/blog/comments-4.jpg"
                             alt=""
                             width={500}
                             height={500}
@@ -336,7 +321,7 @@ const BlogsDetailPage = () => (
                   <div className="d-flex">
                     <div className="comment-img">
                       <img
-                        src="assets/img/blog/comments-5.jpg"
+                        src="/assets/img/blog/comments-5.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -369,7 +354,7 @@ const BlogsDetailPage = () => (
                   <div className="d-flex">
                     <div className="comment-img">
                       <img
-                        src="assets/img/blog/comments-6.jpg"
+                        src="/assets/img/blog/comments-6.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -502,7 +487,7 @@ const BlogsDetailPage = () => (
                   <div className="mt-3">
                     <div className="post-item mt-3">
                       <img
-                        src="assets/img/blog/blog-recent-1.jpg"
+                        src="/assets/img/blog/blog-recent-1.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -520,7 +505,7 @@ const BlogsDetailPage = () => (
 
                     <div className="post-item">
                       <img
-                        src="assets/img/blog/blog-recent-2.jpg"
+                        src="/assets/img/blog/blog-recent-2.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -538,7 +523,7 @@ const BlogsDetailPage = () => (
 
                     <div className="post-item">
                       <img
-                        src="assets/img/blog/blog-recent-3.jpg"
+                        src="/assets/img/blog/blog-recent-3.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -556,7 +541,7 @@ const BlogsDetailPage = () => (
 
                     <div className="post-item">
                       <img
-                        src="assets/img/blog/blog-recent-4.jpg"
+                        src="/assets/img/blog/blog-recent-4.jpg"
                         alt=""
                         width={500}
                         height={500}
@@ -574,7 +559,7 @@ const BlogsDetailPage = () => (
 
                     <div className="post-item">
                       <img
-                        src="assets/img/blog/blog-recent-5.jpg"
+                        src="/assets/img/blog/blog-recent-5.jpg"
                         alt=""
                         width={500}
                         height={500}

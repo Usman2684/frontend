@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -11,23 +12,7 @@ const ProjectsPage = () => {
       {/* <!-- End Header --> */}
       <main id="main">
         {/* <!-- ======= Breadcrumbs ======= --> */}
-        <div
-          className="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: `url("/assets/img/breadcrumbs-bg.jpg");` }}
-        >
-          <div
-            className="container position-relative d-flex flex-column align-items-center"
-            data-aos="fade"
-          >
-            <h2>Projects</h2>
-            <ol>
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>Projects</li>
-            </ol>
-          </div>
-        </div>
+        <Breadcrumbs pageName="Projects" />
         {/* <!-- End Breadcrumbs --> */}
 
         {/* <!-- ======= Our Projects Section ======= --> */}

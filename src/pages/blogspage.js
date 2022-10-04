@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -11,23 +12,7 @@ const BlogsPage = () => {
       {/* <!-- End Header --> */}
       <main id="main">
         {/* <!-- ======= Breadcrumbs ======= --> */}
-        <div
-          className="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: `url("/assets/img/breadcrumbs-bg.jpg");` }}
-        >
-          <div
-            className="container position-relative d-flex flex-column align-items-center"
-            data-aos="fade"
-          >
-            <h2>Blog</h2>
-            <ol>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>Blog</li>
-            </ol>
-          </div>
-        </div>
+        <Breadcrumbs pageName="Blogs" />
         {/* <!-- End Breadcrumbs --> */}
 
         {/* <!-- ======= Blog Section ======= --> */}
@@ -73,7 +58,7 @@ const BlogsPage = () => {
 
                     <hr />
 
-                    <a href="blog-details.html" className="readmore stretched-link">
+                    <a href="/blogsdetail" className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </a>
@@ -120,7 +105,7 @@ const BlogsPage = () => {
 
                     <hr />
 
-                    <a href="blog-details.html" className="readmore stretched-link">
+                    <a href="/blogsdetail" className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </a>
@@ -168,7 +153,7 @@ const BlogsPage = () => {
 
                     <hr />
 
-                    <a href="blog-details.html" className="readmore stretched-link">
+                    <a href="/blogsdetail" className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </a>
@@ -216,7 +201,7 @@ const BlogsPage = () => {
 
                     <hr />
 
-                    <a href="blog-details.html" className="readmore stretched-link">
+                    <a href="/blogsdetail" className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </a>
@@ -265,7 +250,7 @@ const BlogsPage = () => {
 
                     <hr />
 
-                    <a href="blog-details.html" className="readmore stretched-link">
+                    <a href="/blogsdetail" className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </a>
@@ -314,7 +299,7 @@ const BlogsPage = () => {
 
                     <hr />
 
-                    <a href="blog-details.html" className="readmore stretched-link">
+                    <a href="/blogsdetail" className="readmore stretched-link">
                       <span>Read More</span>
                       <i className="bi bi-arrow-right"></i>
                     </a>

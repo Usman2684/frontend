@@ -1,3 +1,4 @@
+import Breadcrumbs from "../components/Breadcrumbs";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -6,23 +7,7 @@ const ProjectsDetailPage = () => (
     <Navbar />
     <main id="main">
       {/* <!-- ======= Breadcrumbs ======= --> */}
-      <div
-        className="breadcrumbs d-flex align-items-center"
-        style={{ backgroundImage: `url("/assets/img/breadcrumbs-bg.jpg");` }}
-      >
-        <div
-          className="container position-relative d-flex flex-column align-items-center"
-          data-aos="fade"
-        >
-          <h2>Project Details</h2>
-          <ol>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>Project Details</li>
-          </ol>
-        </div>
-      </div>
+      <Breadcrumbs pageName="Projects Detail" />
       {/* <!-- End Breadcrumbs --> */}
 
       {/* <!-- ======= Projet Details Section ======= --> */}

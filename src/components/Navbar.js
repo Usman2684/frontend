@@ -1,5 +1,4 @@
 const Navbar = ({ activeClass }) => {
-  console.log("active className", activeClass);
   return (
     <header id="header" className="header d-flex align-items-center">
       <div className="container-fluid container-xl d-flex align-items-center justify-content-between">

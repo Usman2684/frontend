@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Breadcrumbs from "../components/Breadcrumbs";
 import Navbar from "../components/Navbar";
 
 const ContactPage = () => {
@@ -8,23 +9,7 @@ const ContactPage = () => {
       <Navbar activeClass={active} />
       <main id="main">
         {/* <!-- ======= Breadcrumbs ======= --> */}
-        <div
-          className="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: `url("/assets/img/breadcrumbs-bg.jpg")` }}
-        >
-          <div
-            className="container position-relative d-flex flex-column align-items-center"
-            data-aos="fade"
-          >
-            <h2>Contact</h2>
-            <ol>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>Contact</li>
-            </ol>
-          </div>
-        </div>
+        <Breadcrumbs pageName="Contact" />
         {/* <!-- End Breadcrumbs --> */}
 
         {/* <!-- ======= Contact Section ======= --> */}
